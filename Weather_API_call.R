@@ -80,3 +80,8 @@ download_prism <- function(years, # e.g., 2000:2020
 
 
 write.csv(df, "Weather_data.csv")
+
+
+
+weather_datav2.csv
+
