@@ -8,6 +8,6 @@
 -> What is your opinion/is there something I should consider
 
 3. Correct for growth trend in Revenue:
-In the current version of the Grabger Causation Test, only a small number of (around 13 states with SMA30) states have a significant effect on Revenue caused by temperature (lag is set to 12). From my information, the underlying cause is a growing revenue trend across the majority of states caused by an increase in customers in our data set. 
+In the current version of the Granger Test, only a small number of (around 13 with SMA30) states show a significant effect of temperature on revenue (lag is set to 12). From my information, this is caused by an underlying growth in revenue across the majority of states caused by an increase in customers in our data set. 
 
 -> Thesis: We need to correct the Revenue for the growth trend to get an accurate Granger Causation. 
