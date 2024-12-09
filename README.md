@@ -3,7 +3,7 @@
 
 -> In the current code, I simply removed them
 
-2. I used simple moving averages for 7,14,30 days when working with the revenue values in the Granger test 
+2. I used simple moving averages for 7,14,30 days when working with the revenue values in the Granger Test 
 
 -> What is your opinion/is there something I should consider
 
