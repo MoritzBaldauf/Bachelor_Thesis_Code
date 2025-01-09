@@ -1,4 +1,4 @@
-# TBD's 11.12
+# TBD's 11.12 (Outdated)
 1. Currently, we do not have temperature information for the states of Alaska, Hawaii, Puerto Rico, District of Columbia 
 
 -> In the current code, I simply removed them
