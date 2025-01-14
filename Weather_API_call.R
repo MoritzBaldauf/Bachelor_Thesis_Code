@@ -16,7 +16,7 @@ pacman::p_load(
 
 
 df <- download_prism(
-  c(2018, 2019, 2020, 2021, 2022, 2023), # three dry/hot years and three wet years
+  c(2017, 2018, 2019, 2020, 2021, 2022, 2023), # three dry/hot years and three wet years
   1:12, # April-September (growing season)
   "daily",
   "state",
@@ -79,7 +79,7 @@ download_prism <- function(years, # e.g., 2000:2020
 }
 
 
-write.csv(df, "Weather_data.csv")
+write.csv(df, "Weather_data2.csv")
 
 
 
