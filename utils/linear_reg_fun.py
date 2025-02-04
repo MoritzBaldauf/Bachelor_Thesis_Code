@@ -109,15 +109,16 @@ def linear_regresion_per_state(data, y_input:str, X_input:list):
 
 
 ######################### Example execution ################################
-fashion_df = pd.read_csv("./data/fashion_data.csv")
-fashion_df["Order Date"] = pd.to_datetime(fashion_df["Order Date"]) # Formating Order date back to Datetime dtype, in read_csv you cant set column to datetime so need to do manually
-fashion_df.set_index("Order Date", inplace=True)
-fashion_df.drop(columns=["Unnamed: 0"], inplace=True)
+# fashion_df = pd.read_csv("./data/fashion_data.csv")
+# fashion_df["Order Date"] = pd.to_datetime(fashion_df["Order Date"]) # Formating Order date back to Datetime dtype, in read_csv you cant set column to datetime so need to do manually
+# fashion_df.set_index("Order Date", inplace=True)
+# fashion_df.drop(columns=["Unnamed: 0"], inplace=True)
 
-fashion_df = fashion_df.fillna(0)
-
-regression = linear_regresion_per_state(fashion_df, y_input="Revenue", X_input=["Time", "Temp_No_Season"])
+# fashion_df = fashion_df.fillna(0)
 
 
+# Lin_reg_Rev_Big_cold_weather_clo= linear_regresion_per_state(fashion_df, y_input="SMA7_ratio_cold_weather_clothing", X_input=["Temp_No_Season", "Rain_No_Season", "first_order_diff_Revenue_lagged", "tavg", "ppt", "Time"])
 
-print(regression)
+
+
+#print(regression)
