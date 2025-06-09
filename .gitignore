@@ -1,6 +1,9 @@
 # Ignore Data folder and its contents
 /Data/
 
+# Ignore folder with Pictures
+/Exports/
+
 # Ignore Python cache files
 __pycache__/
 *.pyc
