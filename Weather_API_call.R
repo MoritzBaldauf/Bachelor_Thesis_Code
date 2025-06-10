@@ -1,5 +1,3 @@
-#--- load packages ---#
-
 if (!require("pacman")) install.packages("pacman")
 
 pacman::p_load(
@@ -16,8 +14,8 @@ pacman::p_load(
 
 
 df <- download_prism(
-  c(2017, 2018, 2019, 2020, 2021, 2022, 2023), # three dry/hot years and three wet years
-  1:12, # April-September (growing season)
+  c(2017, 2018, 2019, 2020, 2021, 2022, 2023), # Year range of data
+  1:12, # All months of a year
   "daily",
   "state",
   "noweight"
@@ -25,7 +23,7 @@ df <- download_prism(
 
 
 
-
+# See definition of our variables above
 download_prism <- function(years, # e.g., 2000:2020
                            months, # e.g., 1:12
                            temporalUnit, # one of "daily", "monthly"
